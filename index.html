@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Converter</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/font.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <script src="script.js"></script>
+    <meta name="author" content="AllMichto">
+    <meta name="description" content="Convertisseur de binaire, hexadecimal et décimal gratuit en ligne. Apprendre à convertir.">
+    <meta name="keywords" content="Convertisseur, Converter, base, binary, binaire, hexadecimal, decimal, décimal, gratui, en ligne, free, online, cours en ligne, cour de conversion, tableau binaire, tableau">
+</head>
+<body>
+    <header>
+        <h1>BaseConverter</h1>
+    </header>
+    <main>
+        <h1 class="title">
+            Convertisseur de bases gratuit en ligne
+        </h1>
+        <section id="converter">
+            <div class="container">
+                <div class="bases">
+                    <h3>
+                        Entrez le nombre décimal (base 10) à convertir :
+                    </h3>
+                    <input id="decimal" type="text" placeholder="Entrez un nombre en décimal">
+                </div>
+                <hr>
+                <div class="bases">
+                    <h3>
+                        Entrez le nombre binaire (base 2) à convertir :
+                    </h3>
+                    <input id="binary" type="text" placeholder="Entrez un nombre en binaire">
+                </div>
+                <hr>
+                <div class="bases">
+                    <h3>
+                        Entrez le nombre hexadecimal (base 16) à convertir :
+                    </h3>
+                    <input id="hexadecimal" type="text" placeholder="Entrez un nombre en hexadecimal">
+                </div>
+            </div>
+        </section>
+        <hr>
+        <h1 class="title">
+            Apprendre à convertir 
+        </h1>
+        <section id="cours">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Décimal</th>
+                        <th>Binaire</th>
+                        <th>Hexadécimal</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>0</th>
+                        <th>0000</th>
+                        <th>0</th>
+                    </tr>
+                    <tr>
+                        <th>1</th>
+                        <th>0001</th>
+                        <th>1</th>
+                    </tr>
+                    <tr>
+                        <th>2</th>
+                        <th>0010</th>
+                        <th>2</th>
+                    </tr>
+                    <tr>
+                        <th>3</th>
+                        <th>0011</th>
+                        <th>3</th>
+                    </tr>
+                    <tr>
+                        <th>4</th>
+                        <th>0100</th>
+                        <th>4</th>
+                    </tr>
+                    <tr>
+                        <th>5</th>
+                        <th>0101</th>
+                        <th>5</th>
+                    </tr>
+                    <tr>
+                        <th>6</th>
+                        <th>0110</th>
+                        <th>6</th>
+                    </tr>
+                    <tr>
+                        <th>7</th>
+                        <th>0111</th>
+                        <th>7</th>
+                    </tr>
+                    <tr>
+                        <th>8</th>
+                        <th>1000</th>
+                        <th>8</th>
+                    </tr>
+                    <tr>
+                        <th>9</th>
+                        <th>1001</th>
+                        <th>9</th>
+                    </tr>
+                    <tr>
+                        <th>10</th>
+                        <th>1010</th>
+                        <th>A</th>
+                    </tr>
+                    <tr>
+                        <th>11</th>
+                        <th>1011</th>
+                        <th>B</th>
+                    </tr>
+                    <tr>
+                        <th>12</th>
+                        <th>1100</th>
+                        <th>C</th>
+                    </tr>
+                    <tr>
+                        <th>13</th>
+                        <th>1101</th>
+                        <th>D</th>
+                    </tr>
+                    <tr>
+                        <th>14</th>
+                        <th>1110</th>
+                        <th>E</th>
+                    </tr>
+                    <tr>
+                        <th>15</th>
+                        <th>1111</th>
+                        <th>F</th>
+                    </tr>
+                </tbody>
+            </table>
+            <div id="table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Binaire</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>Binaire</th>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>0</td>
+                        </tr>
+                        <tr>
+                            <th>Conversion en Décimal</th>
+                            <td>2⁷</td>
+                            <td>2⁶</td>
+                            <td>2⁵</td>
+                            <td>2⁴</td>
+                            <td>2³</td>
+                            <td>2²</td>
+                            <td>2¹</td>
+                            <td>2⁰</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>10010100(base 2) = 2⁷ + 2⁴ + 2² = 148(base 10)</p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Hexadécimal</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>Hexadécimal</th>
+                            <td>A2</td>
+                            <td>F2</td>
+                            <td>6B</td>
+                        </tr>
+                        <tr>
+                            <th>Conversion en Binaire</th>
+                            <td>10100010</td>
+                            <td>11110110</td>
+                            <td>1101011</td>
+                        </tr>
+                        <tr>
+                            <th>Conversion en Décimal</th>
+                            <td>2722</td>
+                            <td>242</td>
+                            <td>107</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>A2(base 16) = 10 x 16¹ + 2 x 16⁰ = 2722(base 10)</p>
+                <p>A2(base 16) = 1010 0010(base 2)</p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Décimal</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>Décimal</th>
+                            <td>127</td>
+                            <td>18</td>
+                            <td>255</td>
+                        </tr>
+                        <tr>
+                            <th>Conversion en Binaire</th>
+                            <td>1111111</td>
+                            <td>10010</td>
+                            <td>11111111</td>
+                        </tr>
+                        <tr>
+                            <th>Conversion en Hexadécimal</th>
+                            <td>7F</td>
+                            <td>12</td>
+                            <td>FF</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>
+            &copy2024 | François Dancre
+        </p>
+    </footer>
+</body>
+</html>

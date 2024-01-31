@@ -1,0 +1,66 @@
+@media screen and (max-width: 810px) {
+    table {
+        font-size: 0.5rem;
+    }
+    th, td {
+        padding: 5px 10px;
+    }
+    #table p {
+        font-size: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .title {
+        font-size: 1.2rem;
+    }
+    .title:nth-child(1) {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    table {
+        font-size: 0.5rem;
+    
+    }
+}
+
+@media screen and (max-width: 468px){
+    input::placeholder {
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 422px) {
+    .title {
+        font-size: 0.8rem;
+    }
+    input[type="text"] {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 346px) {
+    input::placeholder {
+        font-size: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    th, td {
+        padding: 5px 5px;
+    }
+}
+
+@media screen and (max-width: 294px) {
+    .title {
+        font-size: 0.75rem;
+    }
+}

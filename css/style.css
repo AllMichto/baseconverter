@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #FFFAFA;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    background-color: #EFCFE3;
+    border-radius: 0 0 20px 20px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    gap: 30px;
+}
+
+.title {
+    padding: 0 20px 0 20px;
+}
+
+.title:nth-child(1) {
+    margin-top: 100px;
+}
+
+#converter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 0 20px 0 20px;
+}
+
+#converter hr {
+    width: 100%;
+    border: solid black 1px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid black 3px;
+    border-radius: 20px;
+    max-width: 500px;
+    gap: 30px;
+    padding-bottom: 20px;
+    background-color: #f5f5f5;
+}
+
+.bases {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.bases:nth-child(1) {
+    margin-top: 20px;
+}
+
+.container h3 {
+    padding: 0 20px 0 20px;
+    width: 100%;
+    display: flex;
+    align-items: start;
+}
+
+.container input {
+    width: 80%;
+    height: 50px;
+    border-radius: 10px;
+    border: solid black 2px;
+    font-size: 1.2rem;
+    padding: 0 20px 0 20px;
+}
+
+main hr {
+    width: 100%;
+    border: solid black 1px;
+}
+
+#cours {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: auto;
+    text-align: center;
+    border: solid #EFCFE3 2px;
+    padding: 0 20px 0 20px;
+}
+
+thead tr {
+    background-color: #EFCFE3;
+}
+
+th, td {
+    padding: 15px 20px;
+}
+
+tbody tr, td, th {
+    border: 1px solid #ddd;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#table {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    padding: 0 20px 0 20px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 100%;
+    margin-top: 100px;
+    background-color: #EFCFE3;
+}
